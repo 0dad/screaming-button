@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>fuck you</title>
+</head>
+
+<body>
+	<script src="main.js"></script>
+	<button onclick="buttonPress()">Button</button>
+	<button id="dontbutton" onclick="NO()">Don't</button>
+
+	<h1>THE GATEKEEPERS</h1>
+	<div class="audiobits">
+		<audio id="bigscream">
+			<source src="screms/BIGOWIE.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream0">
+			<source src="screms/man-scream-02.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream1">
+			<source src="screms/man-scream-ahh-01.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream2">
+			<source src="screms/man-screaming-01.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream3">
+			<source src="screms/childscream.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream4">
+			<source src="screms/funniscrem1.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream5">
+			<source src="screms/funniscrem2.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream6">
+			<source src="screms/funniscrem3.mp3" type="audio/mpeg">
+		</audio>
+
+		<audio id="scream7">
+			<source src="screms/womanscream.mp3" type="audio/mpeg">
+		</audio>
+	</div>
+
+	<img class="jim" id="img2" src="pics/tenor.gif">
+	<img class="jim" id="img1" src="pics/tenor.gif">
+</body>
+
+<style>
+
+	body{
+		background-color: black;
+		color: white;
+		position: relative;
+		text-align: center;
+
+	}
+	button{
+		position: fixed;
+		left: 46%;
+		bottom: 50%;
+
+	}
+	#dontbutton{
+		animation: shake 0.09s;
+		animation-iteration-count: infinite;
+		bottom: 40%;
+
+	}
+	#img1{
+		position: fixed;
+		left: 25%;
+		top: 20%;
+	}
+	#img2{
+		position: fixed;
+		right: 25%;
+		transform: scaleX(-1);
+		top: 20%;
+	}
+
+	@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+</style>
+
+</html>
