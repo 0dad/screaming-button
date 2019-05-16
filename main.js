@@ -12,6 +12,10 @@ function incrementParkinsonsOnJim(){
 	ourBoys.setAttribute("style", "animation:shake 1s");
 }
 
+function beanButton(){
+	var x = document.getElementById("BEANS");
+	x.play();
+}
 
 function buttonPress(){
 	// incrementParkinsonsOnJim();

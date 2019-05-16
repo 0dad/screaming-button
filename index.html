@@ -9,6 +9,7 @@
 	<script src="main.js"></script>
 	<button onclick="buttonPress()">Button</button>
 	<button id="dontbutton" onclick="NO()">Don't</button>
+	<button id="beanButton" onclick="beanButton()">Beans</button>
 
 	<h1>THE GATEKEEPERS</h1>
 	<div class="audiobits">
@@ -47,6 +48,10 @@
 		<audio id="scream7">
 			<source src="screms/womanscream.mp3" type="audio/mpeg">
 		</audio>
+
+		<audio id="BEANS">
+			<source src="screms/BEANS.mp3" type="audio/mpeg">
+		</audio>
 	</div>
 
 	<img class="jim" id="img2" src="pics/tenor.gif">
@@ -84,6 +89,12 @@
 		right: 25%;
 		transform: scaleX(-1);
 		top: 20%;
+	}
+	#beanButton{
+		bottom: 20%;
+		width: 200px;
+		height: 100px;
+		left: 42%;
 	}
 
 	@keyframes shake {
